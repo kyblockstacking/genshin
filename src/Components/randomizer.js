@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import Card from '../Components/card';
 
 // Assets
+// Characters
 import Paimon from '../Assets/characters/paimon.png';
 import Amber from '../Assets/characters/amber.png';
 import Barbara from '../Assets/characters/barbara.png';
