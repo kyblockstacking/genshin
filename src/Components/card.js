@@ -4,15 +4,15 @@ const Card = (props) => {
     return (
         <>
           <section>
-            <div class="container">
-                    <div class="box">
+            <div className="container">
+                    <div className="box">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <div class="content">
+                        <div className="content">
                             <h2 className="character-title">{props.name}</h2>
-                            <img src={props.portrait} alt='character portrait' style={{width: '100px', height: '180px'}}></img>
+                            <img className="character-portrait" src={props.portrait} alt='character portrait'></img>
                         </div>
                     </div>
             </div>
