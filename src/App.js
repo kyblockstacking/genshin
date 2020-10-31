@@ -1,11 +1,11 @@
 import './MAIN.scss';
 
-import Card from './Components/card';
+import Randomizer from './Components/randomizer';
 
 function App() {
   return (
     <div className="App">
-      <Card/>
+      <Randomizer/>
     </div>
   );
 }
