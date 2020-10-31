@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Amber from '../Assets/characters/amber.png';
+
 const Card = () => {
     return (
         <>
@@ -12,7 +14,8 @@ const Card = () => {
         <span></span>
         <span></span>
         <div class="content">
-          <h2>My animated Border </h2>
+          <h2>Amber</h2>
+          <img src={Amber} alt='character portrait' style={{width: '80px', height: '160px'}}></img>
         </div>
         
       </div>
