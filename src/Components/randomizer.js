@@ -145,7 +145,7 @@ const Randomizer = () => {
 
     return (
         <>
-        <button onClick={() => roll()}>randomize</button>
+        <button onClick={() => roll()} className="randomize-button">randomize</button>
             <Card name={characterName} portrait={character} />
         </>
     )
