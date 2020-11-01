@@ -39,8 +39,7 @@ const Randomizer = () => {
     const roll = () => {
         const number = Math.floor(Math.random() * 24)
         setRandom(number)
-        console.log(random)
-        switch(random) {
+        switch(number) {
             case 0:
                 setCharacter(Paimon)
                 setCharacterName("Paimon")
