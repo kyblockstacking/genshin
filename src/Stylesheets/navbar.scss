@@ -1,0 +1,32 @@
+@import "./VARIABLES.scss";
+
+.navbar-container {
+  width: 100vw;
+  background: rgba(17, 17, 17, 0.75);
+  position: fixed;
+  z-index: 999;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 12px 0px $shadow;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0px 0px 16px $glow;
+  }
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  color: #ccc;
+  font-size: 1em;
+  outline: none;
+}
