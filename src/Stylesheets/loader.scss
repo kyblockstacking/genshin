@@ -18,11 +18,17 @@
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-.loader-container img {
-  height: 50px;
-  width: 50px;
+.element {
+  padding: 0px 4px;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.element img {
+  width: 100%;
 }
 
 .button {
